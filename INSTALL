@@ -1,5 +1,15 @@
-1) Make sure you got perl and libwww-perl installed
+Make sure you got perl and libwww-perl installed
 
-2) run ./install.sh , verify the commands it prints and execute them
+If you want to install kfilefactory just for you then follow these steps:
+
+1) run ./install.sh , verify the commands it prints and execute them
+
+2) Right click on a file or directory -> Actions -> Share file
+
+If you want to install kfilefactory for all the users then follow the steps below as super user.
+
+1) open kfilefactory.desktop using any editor and change last line to Exec=/usr/libexec/kde4/kfilefactory "%F"
+
+2) run ./install_root.sh
 
 3) Right click on a file or directory -> Actions -> Share file
